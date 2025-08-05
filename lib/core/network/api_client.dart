@@ -21,6 +21,6 @@ class ApiClient {
   }
 
   void setToken(String token) {
-    _dio.options.headers["Authorization"] = "Bearer $token";
+    _dio.options.headers["Authorization"] = "Bearzer $token";
   }
 }

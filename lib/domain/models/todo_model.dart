@@ -2,7 +2,7 @@ class TodoModel {
   final int? id;
   final String title;
   final String? description;
-  final String? dueDate; // ISO String
+  final String? dueDate;
   final bool completed;
 
   TodoModel({
